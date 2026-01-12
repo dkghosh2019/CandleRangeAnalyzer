@@ -8,7 +8,7 @@
 
 - 📈 Calculates candle range, max/min range
 - 🔍 Identifies largest bullish and bearish candles
-- 🧠 Modular structure for future enhancements
+- 🧱 Modular structure for future enhancements
 - 🖥️ Clean console output for quick insights
 
 ---
@@ -23,4 +23,4 @@
 
 ```bash
 cd src/
-dotnet run# CandleStickRangeAnalyzer
+dotnet run
