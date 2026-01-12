@@ -24,3 +24,17 @@
 ```bash
 cd src/
 dotnet run
+
+Roadmap
+- 📁 CSV input support
+- 🧩 NinjaTrader script integration
+- 🧪 Unit tests with xUnit/NUnit
+- 📤 Export results to file
+- 📊 Visualize candle data
+
+🤝 Contributing
+Pull requests welcome!
+For major changes, open an issue first to discuss what you'd like to change.
+
+📄 License
+MIT — feel free to use and modify.
