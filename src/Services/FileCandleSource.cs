@@ -1,5 +1,6 @@
 using CandleRangeAnalyzer.Interfaces;
 using CandleRangeAnalyzer.Models;
+using System.Globalization;
 
 namespace CandleRangeAnalyzer.Services
 {
@@ -23,10 +24,10 @@ namespace CandleRangeAnalyzer.Services
                 var candle = new Candle
                 {
                     Time = DateTime.Parse(parts[0]),
-                    Open = double.Parse(parts[1]),
-                    High = double.Parse(parts[2]),
-                    Low = double.Parse(parts[3]),
-                    Close = double.Parse(parts[4])
+                    Open = decimal.Parse(parts[1], CultureInfo.InvariantCulture),
+                    High = decimal.Parse(parts[2], CultureInfo.InvariantCulture),
+                    Low = decimal.Parse(parts[3], CultureInfo.InvariantCulture),
+                    Close = decimal.Parse(parts[4], CultureInfo.InvariantCulture)
                 };
 
                 OnNewCandle?.Invoke(candle);
