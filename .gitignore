@@ -1,9 +1,14 @@
 # Build artifacts
+bin/
+obj/
 src/bin/
 src/obj/
 
 # VS Code settings
 .vscode/
+
+# Visual Studio cache (safe to ignore even if not using VS)
+.vs/
 
 # User-specific files
 *.user
@@ -12,3 +17,10 @@ src/obj/
 # OS junk
 Thumbs.db
 .DS_Store
+
+
+
+*.dll
+*.exe
+*.pdb
+*.runtimeconfig.json
